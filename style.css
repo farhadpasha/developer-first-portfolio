@@ -8,12 +8,16 @@ h1 {
 
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .oreng-color {
     color: orange;
 
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,13 +40,32 @@ section {
     border-radius: 5px;
 }
 
-.top-banner {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+
 }
 
-.dream-big {
-    background-image: url(images/dream-bg.png);
+.experience-aria {
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
+    color: red;
 }
